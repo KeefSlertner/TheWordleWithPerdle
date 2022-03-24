@@ -1,5 +1,5 @@
 export const WORDS = [
-  'bulge',  
+  'diner',  
   'knope',
   'wyatt',
   'april',
@@ -35,7 +35,7 @@ export const WORDS = [
   'pacer',
   'colts',
   'peach',
-  'diner',
+  'bulge',
   'bread',
   'fires',
   'toast',
