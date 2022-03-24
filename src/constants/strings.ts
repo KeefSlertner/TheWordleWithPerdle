@@ -1,6 +1,6 @@
  export const GAME_TITLE = 'The Wordle with Perdle'
 
-export const WIN_MESSAGES = ['You talented musk ox', 'You beautiful rule-breaking moth', 'You beautiful tropical fish', 'Bully!', 'Spread your wings and fly', 'Youre a champioooonnnnn',]
+export const WIN_MESSAGES = ['You talented musk ox', 'You beautiful rule-breaking moth', 'You beautiful tropical fish', 'Bully!', 'Spread your wings and fly', '&#127925;Youre a champioooonnnnn&#127925;',]
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
 export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
@@ -10,7 +10,7 @@ export const HARD_MODE_DESCRIPTION =
   'Any revealed hints must be used in subsequent guesses'
 export const HIGH_CONTRAST_MODE_DESCRIPTION = 'For improved color vision'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `The word was ${solution}`
+  `You Just Got Jammed! The word was ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
   `Must use ${guess} in position ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
