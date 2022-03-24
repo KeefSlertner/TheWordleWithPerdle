@@ -1,4 +1,4 @@
-export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
+ export const GAME_TITLE = 'The Wordle with Perdle'
 
 export const WIN_MESSAGES = ['You talented musk ox', 'You beautiful rule-breaking moth', 'You beautiful tropical fish', 'Bully!', 'Spread your wings and fly', 'Youre a champioooonnnnn',]
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
